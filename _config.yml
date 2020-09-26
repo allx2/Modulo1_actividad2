@@ -1,1 +1,6 @@
+title: Actividad 2 Github
+email: mnampula@nubity.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Pagina realizada mediante jekyll
+github_username:  allx2
 theme: jekyll-theme-hacker

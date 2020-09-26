@@ -6,8 +6,6 @@ Now it requires a few more steps than we saw on the video
 
 ### Setting up repository
 
-Publish your github site not longer require add a suffix `github.io`.
-
 Now we have to set up the repository:
 
 1. Click on settings  
@@ -17,9 +15,18 @@ Now we have to set up the repository:
 
 ### Jekyll Themes
 
-just add a `_config.yml` to your repository with the name of the theme that you want to use. eg
+just add a `_config.yml` to your repository with 
+the name of the theme that you want to use and set up the name. eg
 
->`theme: jekyll-theme-hacker`
+```ruby 
+title: Example 1
+email: user@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  allx2
+theme: jekyll-theme-hacker
+```
 
 and push into the repository
 
