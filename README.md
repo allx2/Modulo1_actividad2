@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Modulo 1 Actividad 2
 
-You can use the [editor on GitHub](https://github.com/allx2/Modulo1_actividad2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The way that you have to publish your github web site has changed.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Now it requires a few more steps than we saw on the video
 
-### Markdown
+### Setting up repository
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Publish your github site not longer require add a suffix `github.io`.
 
-```markdown
-Syntax highlighted code block
+Now we have to set up the repository:
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+1. Click on settings  
+2. Go to Github pages section  
+3. Choose the branch and directory that contain the web page  
+![](https://s3.amazonaws.com/presales.training/github_page_1.png)
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/allx2/Modulo1_actividad2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+just add a `_config.yml` to your repository with the name of the theme that you want to use. eg
+
+>`theme: jekyll-theme-hacker`
+
+and push into the repository
 
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+> _or just ask in the forum_
